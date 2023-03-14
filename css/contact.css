@@ -1,0 +1,4 @@
+body, nav a {
+    background-color: var(--baby-blue);
+    color: var(--off-black);
+}

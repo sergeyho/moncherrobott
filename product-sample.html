@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Product</title>
+
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/forms.css">
+        <link rel="stylesheet" href="css/product-listing.css">
+        <link rel="stylesheet" href="css/product-sample.css">
+    </head>
+
+    <body>
+        <nav class="main-nav">
+            <div class="top-nav">
+              <a class="home-link" href="index.html">mon cher robot</a>
+              <a class="nav-link auction-link" href="auction.html">auction</a>
+              <a class="nav-link my-bids-link" href="my-bids.html">my bids</a>
+            </div>
+    
+            <div class="bottom-nav">
+              <a class="nav-link contact-link" href="contact.html">contact</a>
+              <a class="nav-link about-link" href="about.html">about</a>
+            </div>
+        </nav>
+        
+        <section class="flex-container">
+            <figure class="product-listing flex-child">
+                <img src="img/prototypes-children.jpeg">
+                <figcaption>
+                    <p class="product-title">Children</p>
+                    <p class="product-artist">PROTOtypes</p>
+                </figcaption>
+            </figure>
+
+            <div class="flex-child">
+                <p class="time-remaining status-good">Time remaining: 03:10:28.01s</p>
+                <p class="highest-bid status-good">Highest bid: baroness_bunny 5.260ETH</p>
+            </div>
+
+            <form class="flex-child" method="post" action="#">
+                <h2><label for="bid">enter bid</label></h2>
+                <input id="bid" type="text" placeholder="0.000ETH">
+                <input class="submit-form-button" type="submit" value="bid">
+            </form>
+
+            <section class="bid_history flex-child">
+                <h2>bid history</h2>
+                <div class="bid-history-chat">
+                    <p>baroness_bunny 5.260ETH/p>
+                    <p>user1102 2.566ETH</p>
+                    <p>dragungirl98 5.200ETH</p>
+                    <p>small_white_box 2.200ETH</p>
+                    <p>user406 2.000ETH</p>
+                </div>
+            </section>
+        </section>
+
+        
+    </body>
+
+</html>

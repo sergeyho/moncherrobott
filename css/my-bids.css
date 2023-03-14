@@ -1,0 +1,8 @@
+body, a{
+    background-color: white;
+    color: var(--off-black);
+}
+
+#ongoing-bids {
+    margin-top: 4.25rem;
+}

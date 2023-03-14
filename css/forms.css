@@ -1,0 +1,18 @@
+label, input, textarea {
+    display: block;
+    width: 40rem;
+    max-width: 100%;
+    margin: auto;
+}
+
+textarea {
+    height: 23.75rem;
+}
+
+form {
+    margin-top: 5rem;
+}
+
+.submit-form-button {
+    width: 3rem;
+}
